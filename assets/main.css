@@ -1,7 +1,28 @@
 navbar {
 
 }
+
 body {
-  padding-top: 150px;
+  /*padding-top: 70px;*/
   font-family: 'Oswald', sans-serif;
+}
+
+#contact-me-button {
+  /*clear: both;*/
+  display: block;
+  color: #52527a;
+  text-align: center;
+  padding: .5em;
+  margin: 1em;
+}
+
+.contact-options {
+  display: none;
+  background-color: #52527a;
+  color: #52527a;
+  text-align: center;
+  padding: .5em;
+  margin: .5em;
+  margin-bottom: 1em;
+  text-decoration: none;
 }
