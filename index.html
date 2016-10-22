@@ -21,44 +21,83 @@
 
     <title>Misha LeClair - Full Stack Web Developer</title>
   </head>
-  <nav>
-    <a href="#home">home</a>
-    <a href="#about_me">about me</a>
-    <a href="#projects">projects</a>
-    <a href="#contact_me">contact me</a>
-  </nav>
+  <!-- navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-name" href="#">Misha LeClair</a>
+      </div>
+      <div class="collapse navbar-collapse" id="portfolio-navbar-collapse">
+         <ul class="nav navbar-list">
+           <li><a href="#about-me">About Me</a></li>
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="#within-reach-container">Within Reach</a></li>
+               <li><a href="#protips-container">ProTips App</a></li>
+               <li><a href="#race-time-container">Race Time</a></li>
+             </ul>
+            </li>
+            <li><a href="#contact-me">Contact Me</a></li>
+         </ul>
+       </div><!-- navbar-collapse -->
+     </div><!-- container-fluid -->
+   </nav>
   <body>
-    <!-- about me section -->
-    <div id="about-me">
-      <h1>Misha LeClar</h1>
-      <!-- <img src="assets/images/mishaleclairglasses.jpg"/> -->
-      <!-- <img src="assets/images/mishaleclaircoffee.jpg"/> -->
-      <ul class="about-me-list">
-        <li>Dedicated and Driven </li>
-        <li>Experienced Storyteller</li>
-        <li>Excited by Collaboration</li>
-      </ul>
-      <!-- get updated copy!!! -->
-      <p>I am a web developer looking to join a team with a great mission or inspiring product. I have a background in storytelling, research, leadership and a history meeting deadlines under pressure. Areas of interest include server side development, education, and financial literacy. </p>
-      <ul class="technical-skills-list">
-        <li>HTML, CSS, JavaScript, jQuery, Angular</li>
-        <li>Node.js, Express, MongoDB, Mongoose, Ruby, Ruby on Rails</li>
-        <li>Bootstrap, Handlebars, Materialize</li>
-      </ul>
+  <!-- about me section -->
+    <div class="container-fluid">
+      <div id="about-me">
+        <!-- <img src="assets/images/mishaleclairglasses.jpg"/> -->
+        <!-- <img src="assets/images/mishaleclaircoffee.jpg"/> -->
+        <ul class="about-me-list">
+          <li>Dedicated and Driven</li>
+          <li>Experienced Storyteller</li>
+          <li>Excited by Collaboration</li>
+        </ul>
+        <!-- get updated copy!!! -->
+        <p>I am a web developer looking to join a team with a great mission or inspiring product. I bring full-stack technical skills to the table combined with a comprehensive background in storytelling, research, leadership and a healthy sense of urgency. Areas of interest include server side development, education, and financial literacy.</p>
+        <ul class="technical-skills-list">
+          <li>HTML, CSS, JavaScript, jQuery, Angular</li>
+          <li>Node.js, Express, MongoDB, Mongoose, Ruby, Ruby on Rails</li>
+          <li>Bootstrap, Handlebars, Materialize</li>
+          <li>GitHub, Heroku, BitBalloon</li>
+        </ul>
+      </div>
     </div>
-    <!-- projects section -->
-    <div id="projects">
+      <!-- projects section -->
+      <div class="container-fluid">
+        <div id="projects">
 
+          <!-- project 2 within reach -->
+          <div id="within-reach-container">
+            <p>WITHIN REACH</P>
+          </div>
 
+          <!-- project 1 protips -->
+          <div id="protips-container">
+            <p>PROTIPS</P>
+          </div>
 
-    </div>
-    <!-- contact me section -->
-    <div id="contact-me">
-      <button id="email" class="email-button"><a href=#>Email Me</a></button>
-      <button id="twitter"><a href="http://twitter.com/webdevmisha" target="_blank">Twitter</a></button>
-      <button id="linkedin"><a href="http://www.linkedin.com/in/webdevmishaleclair" target="_blank">LinkedIn</a></button>
-      <button id="github"><a href="http://github.com/sfnewzgirl" target="_blank">GitHub</a></button>
-      <button id="home-button"><a href="#home">Home</a></button>
-    </div>
+          <!-- project 1 race time -->
+          <div id="race-time-container">
+            <p>RACE TIME</P>
+          </div>
+
+        </div>
+      </div>
+      <!-- contact me section -->
+      <div id="contact-me">
+        <button id="email" class="email-button"><a href=#>Email Me</a></button>
+        <button id="twitter"><a href="http://twitter.com/webdevmisha" target="_blank">Twitter</a></button>
+        <button id="linkedin"><a href="http://www.linkedin.com/in/webdevmishaleclair" target="_blank">LinkedIn</a></button>
+        <button id="github"><a href="http://github.com/sfnewzgirl" target="_blank">GitHub</a></button>
+        <button id="home-button"><a href="#home">Home</a></button>
+      </div>
   </body>
 </html>
