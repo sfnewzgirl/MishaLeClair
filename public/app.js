@@ -3,6 +3,12 @@ console.log("app.js linked");
 
 $(document).ready(function() {
 
+  $('#portfolio-nav-bar').on('show.bs.dropdown', function () {
+    console.log("you clicked the dropdown");
+    //add class dropdown open
+    //aria-expanded = true
+  })
+
   // navbar dropdown
   // $('.dropdown-toggle').dropdown('.dropdown-menu')
 
