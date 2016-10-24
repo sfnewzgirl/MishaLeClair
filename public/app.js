@@ -14,7 +14,8 @@ $(document).ready(function() {
 
   $('.contact-me-nav').on('click', function(event) {
     console.log("you clicked contact me");
-      $('#about-me').show();
+      $('#about-me').hide();
+      $('#contact-me-section').show('.contact-options');
       $("#sitter-swap-container").hide();
       $('#within-reach-container').hide();
       $('#protips-container').hide();
