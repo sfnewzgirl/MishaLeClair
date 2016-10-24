@@ -12,24 +12,40 @@ $(document).ready(function() {
       $('#about-me').toggle();
   });
 
-  $('.project-dropdown-nav').on('click', function(event) {
-    console.log("you clicked the projecs dropdown");
-  });
+  // $('.project-dropdown-nav').on('click', function(event) {
+  //   console.log("you clicked the projecs dropdown");
+  // });
 
   $('.sitter-swap-dropdown').on('click', function(event) {
-    console.log("you clicked the projecs dropdown");
+    console.log("you clicked sitterswap");
+    $("#sitter-swap-container").show();
+    $('#within-reach-container').hide();
+    $('protips-container').hide();
+    $('#race-time-container').hide();
   });
 
   $('.within-reach-dropdown').on('click', function(event) {
-    console.log("you clicked the projecs dropdown");
+    console.log("you clicked within reach");
+    $("#sitter-swap-container").hide();
+    $('#within-reach-container').show();
+    $('protips-container').hide();
+    $('#race-time-container').hide();
   });
 
   $('.protips-dropdown').on('click', function(event) {
-    console.log("you clicked the projecs dropdown");
+    console.log("you clicked protips");
+    $("#sitter-swap-container").hide();
+    $('#within-reach-container').hide();
+    $('protips-container').show();
+    $('#race-time-container').hide();
   });
 
   $('.race-time-dropdown').on('click', function(event) {
-    console.log("you clicked the projecs dropdown");
+    console.log("you clicked race time");
+    $("#sitter-swap-container").hide();
+    $('#within-reach-container').hide();
+    $('protips-container').hide();
+    $('#race-time-container').show();
   });
 
   // contact me button toggle
