@@ -1,9 +1,6 @@
-navbar {
-
-}
 
 img {
-  max-width: 500px;
+  max-width: 300px;
   max-height: auto;
 }
 body {
@@ -14,7 +11,7 @@ body {
 #contact-me-button {
   /*clear: both;*/
   display: block;
-  color: #52527a;
+  color: #317ca9;
   text-align: center;
   padding: .5em;
   margin: 1em;
@@ -22,8 +19,8 @@ body {
 
 .contact-options {
   display: none;
-  background-color: #52527a;
-  color: #52527a;
+  background-color: #51b8ab;
+  color: #317ca9;
   text-align: center;
   padding: .5em;
   margin: .5em;
