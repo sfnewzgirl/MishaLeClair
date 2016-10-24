@@ -3,22 +3,6 @@ console.log("app.js linked");
 
 $(document).ready(function() {
 
-  $('#portfolio-nav-bar').on('show.bs.dropdown', function () {
-    console.log("you clicked the dropdown");
-    //add class dropdown open
-    //aria-expanded = true
-  })
-
-  // navbar dropdown
-  // $('.dropdown-toggle').dropdown('.dropdown-menu')
-
-  // $('.dropdown-toggle').dropdown('.project-list', function () {
-  //   console.log("you clicked the dropdown");
-  // })
-
-
-
-
   // contact me section toggle
   $('#contact-me-button').on('click', function(event) {
     event.preventDefault();
