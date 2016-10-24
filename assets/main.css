@@ -1,10 +1,16 @@
-img {
-  max-width: 300px;
-  max-height: auto;
-}
 body {
   /*padding-top: 70px;*/
   font-family: 'Oswald', sans-serif;
+}
+
+img {
+  display: inline-block;
+  max-width: 300px;
+  max-height: auto;
+}
+
+about-me-list {
+  display: inline;
 }
 
 #sitter-swap-container, #within-reach-container, #protips-container, #race-time-container {
