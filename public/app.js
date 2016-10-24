@@ -3,7 +3,36 @@ console.log("app.js linked");
 
 $(document).ready(function() {
 
-  // contact me section toggle
+  $('.about-me-nav').on('click', function(event) {
+    console.log("you clicked about me");
+  });
+
+  $('.contact-me-nav').on('click', function(event) {
+    console.log("you clicked contact me");
+      $('#about-me').toggle();
+  });
+
+  $('.project-dropdown-nav').on('click', function(event) {
+    console.log("you clicked the projecs dropdown");
+  });
+
+  $('.sitter-swap-dropdown').on('click', function(event) {
+    console.log("you clicked the projecs dropdown");
+  });
+
+  $('.within-reach-dropdown').on('click', function(event) {
+    console.log("you clicked the projecs dropdown");
+  });
+
+  $('.protips-dropdown').on('click', function(event) {
+    console.log("you clicked the projecs dropdown");
+  });
+
+  $('.race-time-dropdown').on('click', function(event) {
+    console.log("you clicked the projecs dropdown");
+  });
+
+  // contact me button toggle
   $('#contact-me-button').on('click', function(event) {
     event.preventDefault();
     //shows contact me div
