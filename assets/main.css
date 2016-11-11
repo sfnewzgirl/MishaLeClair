@@ -13,9 +13,9 @@ about-me-list {
   display: inline;
 }
 
-#sitter-swap-container, #within-reach-container, #protips-container, #race-time-container {
+/*#sitter-swap-container, #within-reach-container, #protips-container, #race-time-container {
   display: none;
-}
+}*/
 
 #contact-me-button {
   /*clear: both;*/
