@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="portfolio">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Angular -->
+    <script src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="public/app.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- custom stylesheet -->
-    <link rel="stylesheet" href="assets/main.css" media="screen" title="no title" charset="utf-8">
-
     <!-- font family -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <!-- custom javascript file -->
-    <script src="public/app.js"></script>
-
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="assets/main.css" media="screen" title="no title" charset="utf-8">
     <title>Misha LeClair - Full Stack Web Developer</title>
   </head>
 
@@ -49,145 +42,148 @@
     </div><!-- /.container-fluid -->
   </nav>
 <body>
-  <!-- about me section -->
-  <div class="container-fluid active" id="about-me">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="col-lg-6 col-xs-12">
-          <img src="assets/images/mishaleclairglasses.jpg"/>
-        </div>
-        <div class="col-lg-6 col-xs-12">
-          <ul class="about-me-list">
-            <li>Dedicated and Driven</li>
-            <li>Passionate About Problem Solving</li>
-            <li>Experienced Storyteller</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="col-lg-6 col-xs-12">
-            <p>I am a full stack web developer with a comprehensive background in storytelling, research, leadership and a history meeting deadlines under pressure. I gravitate toward server-side development and data structures. I pay close attention to user experience and building a cohesive, intuitive product on the front end.</p>
-          </div>
-        </div>
+<!-- about me section -->
+<div class="container-fluid active" id="about-me">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-lg-6 col-xs-12">
+        <img src="assets/images/mishaleclairglasses.jpg"/>
       </div>
       <div class="col-lg-6 col-xs-12">
-        <ul class="technical-skills-list">
-          <li>HTML, CSS, JavaScript, jQuery, Angular</li>
-          <li>Node.js, Express, MongoDB, Mongoose</li>
-          <li>Ruby and Ruby on Rails</li>
-          <li>Bootstrap, Handlebars, Materialize</li>
-          <li>GitHub, Heroku, BitBalloon</li>
+        <p>I can add: {{ 1+2 }}</p>
+        <ul class="about-me-list">
+          <li>Dedicated and Driven</li>
+          <li>Passionate About Problem Solving</li>
+          <li>Experienced Storyteller</li>
         </ul>
       </div>
     </div>
-    <!-- projects section -->
-    <!-- project 3 within reach -->
-    <div class="container-fluid" id="sitterswap-section">
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="sitter-swap-container">
-            <h2>SITTERSWAP</h2>
-            <img src="assets/images/SitterSwapScreenshot.png">
-            <h3>About the App</h3>
-            <p>SitterSwap lets families connect to each other to find the best child care for their little ones. It replaces those large, inpersonal child care websites and expands your pool of child care options based on trusted relationships.</p>
-            <h3>My Role</h3>
-            <p>I created this app during a one week, solo sprint. I focused on creating solid modeling for users and the various relationships they would have with families and each other like sitters.</p>
-            <h3>Technical Details</h3>
-            <ul>
-              <li>Ruby on Rails</li>
-              <li>Many-to-many relationships between People (users) and Families through a Family_People join table</li>
-              <li>Bootstrap</li>
-            </ul>
-            <a href="https://sitter-swap.herokuapp.com/" target="_blank">SitterSwap</a>
-            <a href="https://github.com/sfnewzgirl/sitter-swap-2" target="_blank">GitHub</a>
-          </div>
+  </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-lg-6 col-xs-12">
+          <p>I am a full stack web developer with a comprehensive background in storytelling, research, leadership and a history meeting deadlines under pressure. I gravitate toward server-side development and data structures. I pay close attention to user experience and building a cohesive, intuitive product on the front end.</p>
         </div>
       </div>
     </div>
-    <!-- project 2 within reach -->
-    <div class="container-fluid" id="within-reach-section">
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="within-reach-container">
-            <h2>WITHIN REACH</h2>
-            <img src="assets/images/within-reach-screenshot.png"/>
-            <h3>About the App</h3>
-            <p>"Within Reach" is a mobile-friendly app for people who rely on Dialectical Behavior Therapy as part of their recovery process. The goal is to make the hard work of recovery easy, accessible, and private. Users can create guided entries that walk them through the core principles of DBT techniques including mindfulness, emotion regulation, and distress tolerance. The app allows users to share those entries with a chosen mental health professional to further aid in their recovery.</p>
-            <h3>My Role</h3>
-            <p>"Within Reach" is my app idea and I served as team leader during this one week, group sprint. During the project, I was responsible for building models, views, controllers, and routes.</p>
-            <h3>Technical Details</h3>
-            <ul>
-              <li>Ruby on Rails</li>
-              <li>jQuery</li>
-              <li>Materialize</li>
-            </ul>
-            <a href="https://pacific-retreat-93110.herokuapp.com/" target="_blank">Within Reach</a>
-            <a href="https://github.com/sfnewzgirl/dialectical-therapy" target="_blank">Github</a>
-          </div>
+    <div class="col-lg-6 col-xs-12">
+      <ul class="technical-skills-list">
+        <li>HTML, CSS, JavaScript, jQuery, Angular</li>
+        <li>Node.js, Express, MongoDB, Mongoose</li>
+        <li>Ruby and Ruby on Rails</li>
+        <li>Bootstrap, Handlebars, Materialize</li>
+        <li>GitHub, Heroku, BitBalloon</li>
+      </ul>
+    </div>
+  </div>
+  <!-- projects section -->
+  <!-- project 3 within reach -->
+  <div class="container-fluid" id="sitterswap-section">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="sitter-swap-container">
+          <h2>SITTERSWAP</h2>
+          <img src="assets/images/SitterSwapScreenshot.png">
+          <h3>About the App</h3>
+          <p>SitterSwap lets families connect to each other to find the best child care for their little ones. It replaces those large, inpersonal child care websites and expands your pool of child care options based on trusted relationships.</p>
+          <h3>My Role</h3>
+          <p>I created this app during a one week, solo sprint. I focused on creating solid modeling for users and the various relationships they would have with families and each other like sitters.</p>
+          <h3>Technical Details</h3>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>Many-to-many relationships between People (users) and Families through a Family_People join table</li>
+            <li>Bootstrap</li>
+          </ul>
+          <a href="https://sitter-swap.herokuapp.com/" target="_blank">SitterSwap</a><br>
+          <p>You can link to another family by searching the family name: "TestFamily".</p>
+          <p>You can choose a sitter too by searching for the email: "testsitter@example.com".</p>
+          <a href="https://github.com/sfnewzgirl/sitter-swap-2" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
-    <!-- project 1 protips -->
-    <div class="container-fluid" id="protips-section">
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="protips-container">
-            <h2>PROTIPS</h2>
-            <img src="assets/images/protips-screenshot.png">
-            <h3>About the App</h3>
-            <p>The ProTips App and API offers theme park visitors easy access to trip planning and crowdsourced advice they can't easily get elsewhere. While many resources describe rides, attractions and services (many even rate those), inevitably the best advice comes from another park visitor who has been there many times before and has a wealth of knowledge to share. Users can read ProTips, write their own, and vote up or vote down on a specific ProTip. Users can also comment on a ProTip to add their spin, additional information or even let other users know that ProTip is now outdated.</p>
-            <h3>My Role</h3>
-            <p>I worked extensively on the server side and database during this pair project - creating schemas, models, RESTful routes and server-side functions. For example, users vote up or down with separate button clicks on the front end that are sent through AJAX calls to the server, where a JavaScript function updates the database to persist the value.</p>
-            <h3>Technical Details</h3>
-            <ul>
-              <li>HTML, CSS, Sass, jQuery</li>
-              <li>Node.js, Express, Mongoose, MongoDB</li>
-            </ul>
-            <a href="https://parkprotips.herokuapp.com/" target="_blank">ProTips</a>
-            <a href="https://github.com/sfnewzgirl/project1-disneyland" target="_blank">GitHub</a>
-          </div>
+  </div>
+  <!-- project 2 within reach -->
+  <div class="container-fluid" id="within-reach-section">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="within-reach-container">
+          <h2>WITHIN REACH</h2>
+          <img src="assets/images/within-reach-screenshot.png"/>
+          <h3>About the App</h3>
+          <p>"Within Reach" is a mobile-friendly app for people who rely on Dialectical Behavior Therapy as part of their recovery process. The goal is to make the hard work of recovery easy, accessible, and private. Users can create guided entries that walk them through the core principles of DBT techniques including mindfulness, emotion regulation, and distress tolerance. The app allows users to share those entries with a chosen mental health professional to further aid in their recovery.</p>
+          <h3>My Role</h3>
+          <p>"Within Reach" is my app idea and I served as team leader during this one week, group sprint. During the project, I was responsible for building models, views, controllers, and routes.</p>
+          <h3>Technical Details</h3>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>jQuery</li>
+            <li>Materialize</li>
+          </ul>
+          <a href="https://pacific-retreat-93110.herokuapp.com/" target="_blank">Within Reach</a><br>
+          <a href="https://github.com/sfnewzgirl/dialectical-therapy" target="_blank">Github</a>
         </div>
       </div>
     </div>
-    <!-- project 1 race time -->
-    <div class="container-fluid" id="race-time-section">
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="race-time-container">
-            <h2>RACE TIME</h2>
-            <img src="assets/images/race-time-screenshot.png">
-            <h3>About the App</h3>
-            <p>A two player race against the clock. When a player clicks the "Ready to Play?" button, a countdown begins. Players are given 30 seconds to rack up the most clicks. Player 1 uses the "A" key and player 2 uses the "L" key.</p>
-            <h3>My Role</h3>
-            <p>I built this game over one weekend as a exercise in jQuery and timing. I created a countdown for players with text displaying "ready, set, go". Also, I used keyup as the event listener so a player wouldn't be able to hold a key down and rack up points quickly as well as to avoid a tie if two players simply held their keys down.</p>
-            <h3>Technical Details</h3>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>jQuery</li>
-            </ul>
-            <a href="https://webdevmisharacetimeracinggame.bitballoon.com/" target="_blank">Race Time</a>
-            <a href="https://github.com/sfnewzgirl/project0-racing-game" target="_blank">GitHub</a>
-          </div>
+  </div>
+  <!-- project 1 protips -->
+  <div class="container-fluid" id="protips-section">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="protips-container">
+          <h2>PROTIPS</h2>
+          <img src="assets/images/protips-screenshot.png">
+          <h3>About the App</h3>
+          <p>The ProTips App and API offers theme park visitors easy access to trip planning and crowdsourced advice they can't easily get elsewhere. While many resources describe rides, attractions and services (many even rate those), inevitably the best advice comes from another park visitor who has been there many times before and has a wealth of knowledge to share. Users can read ProTips, write their own, and vote up or vote down on a specific ProTip. Users can also comment on a ProTip to add their spin, additional information or even let other users know that ProTip is now outdated.</p>
+          <h3>My Role</h3>
+          <p>I worked extensively on the server side and database during this pair project - creating schemas, models, RESTful routes and server-side functions. For example, users vote up or down with separate button clicks on the front end that are sent through AJAX calls to the server, where a JavaScript function updates the database to persist the value.</p>
+          <h3>Technical Details</h3>
+          <ul>
+            <li>HTML, CSS, Sass, jQuery</li>
+            <li>Node.js, Express, Mongoose, MongoDB</li>
+          </ul>
+          <a href="https://parkprotips.herokuapp.com/" target="_blank">ProTips</a><br>
+          <a href="https://github.com/sfnewzgirl/project1-disneyland" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
-    <!-- contact me section -->
-    <div class="container-fluid" id="contact-me-section">
-      <div class="row">
-        <div class="col-lg-12">
-          <center><button type="button" class="contact-me-section" id="contact-me-button">CONTACT ME</button></center>
-          <div class="contact-options">
-            <button id="email" class="email-button"><a href=#>Email Me</a></button>
-            <button id="twitter"><a href="http://twitter.com/webdevmisha" target="_blank">Twitter</a></button>
-            <button id="linkedin"><a href="http://www.linkedin.com/in/webdevmishaleclair" target="_blank">LinkedIn</a></button>
-            <button id="github"><a href="http://github.com/sfnewzgirl" target="_blank">GitHub</a></button>
-            <button id="home-button"><a href="#home">Home</a></button>
-          </div>
+  </div>
+  <!-- project 1 race time -->
+  <div class="container-fluid" id="race-time-section">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="race-time-container">
+          <h2>RACE TIME</h2>
+          <img src="assets/images/race-time-screenshot.png">
+          <h3>About the App</h3>
+          <p>A two player race against the clock. When a player clicks the "Ready to Play?" button, a countdown begins. Players are given 30 seconds to rack up the most clicks. Player 1 uses the "A" key and player 2 uses the "L" key.</p>
+          <h3>My Role</h3>
+          <p>I built this game over one weekend as a exercise in jQuery and timing. I created a countdown for players with text displaying "ready, set, go". Also, I used keyup as the event listener so a player wouldn't be able to hold a key down and rack up points quickly as well as to avoid a tie if two players simply held their keys down.</p>
+          <h3>Technical Details</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>jQuery</li>
+          </ul>
+          <a href="https://webdevmisharacetimeracinggame.bitballoon.com/" target="_blank">Race Time</a><br>
+          <a href="https://github.com/sfnewzgirl/project0-racing-game" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+  <!-- contact me section -->
+  <div class="container-fluid" id="contact-me-section">
+    <div class="row">
+      <div class="col-lg-12">
+        <center><button type="button" class="contact-me-section" id="contact-me-button">CONTACT ME</button></center>
+        <div class="contact-options">
+          <button id="email" class="email-button"><a href=#>Email Me</a></button>
+          <button id="twitter"><a href="http://twitter.com/webdevmisha" target="_blank">Twitter</a></button>
+          <button id="linkedin"><a href="http://www.linkedin.com/in/webdevmishaleclair" target="_blank">LinkedIn</a></button>
+          <button id="github"><a href="http://github.com/sfnewzgirl" target="_blank">GitHub</a></button>
+          <button id="home-button"><a href="#home">Home</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
