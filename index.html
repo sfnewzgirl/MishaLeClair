@@ -33,7 +33,7 @@
   </nav>
   <body>
   <!-- about me section -->
-  <div class="container-fluid active" id="about-me">
+  <div class="container-fluid active" id="about-me" ng-hide="inactive">
     <div class="row">
       <div class="col-lg-12">
         <div class="col-lg-6 col-xs-12">
@@ -48,7 +48,6 @@
         </div>
       </div>
     </div>
-  </div>
     <div class="row">
       <div class="col-lg-12">
         <div class="col-lg-6 col-xs-12">
@@ -69,7 +68,7 @@
   </div>
   <!-- projects section -->
   <!-- project 3 within reach -->
-  <div class="container-fluid" id="sitterswap-section">
+  <div class="container-fluid inactive" id="sitterswap-section" ng-show="active">
     <div class="row">
       <div class="col-lg-12">
         <div id="sitter-swap-container">
@@ -95,7 +94,7 @@
     </div>
   </div>
   <!-- project 2 within reach -->
-  <div class="container-fluid" id="within-reach-section">
+  <div class="container-fluid inactive" id="within-reach-section" ng-show="active">
     <div class="row">
       <div class="col-lg-12">
         <div id="within-reach-container">
@@ -119,7 +118,7 @@
     </div>
   </div>
   <!-- project 1 protips -->
-  <div class="container-fluid" id="protips-section">
+  <div class="container-fluid inactive" id="protips-section" ng-show="active">
     <div class="row">
       <div class="col-lg-12">
         <div id="protips-container">
@@ -142,7 +141,7 @@
     </div>
   </div>
   <!-- project 1 race time -->
-  <div class="container-fluid" id="race-time-section">
+  <div class="container-fluid inactive" id="race-time-section" ng-show="active">
     <div class="row">
       <div class="col-lg-12">
         <div id="race-time-container">
@@ -166,7 +165,7 @@
     </div>
   </div>
   <!-- contact me section -->
-  <div class="container-fluid" id="contact-me-section">
+  <div class="container-fluid inactive" id="contact-me-section" ng-show="active">
     <div class="row">
       <div class="col-lg-12">
         <center><h2>CONTACT ME</h2></center>
