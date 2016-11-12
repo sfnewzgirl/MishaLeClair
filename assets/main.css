@@ -17,21 +17,9 @@ img {
   max-height: auto;
 }
 
-#contact-me-button {
-  display: block;
-  color: #317ca9;
-  text-align: center;
-  padding: .5em;
-  margin: 1em;
-}
-
 .contact-options {
-  display: none;
-  background-color: #51b8ab;
-  color: #317ca9;
   text-align: center;
   padding: .5em;
   margin: .5em;
-  margin-bottom: 1em;
-  text-decoration: none;
+  margin-bottom: 3em;
 }
