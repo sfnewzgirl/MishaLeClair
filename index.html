@@ -24,6 +24,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">Misha LeClair</a>
       </div>
@@ -31,12 +33,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="portfolio-nav-bar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="about-me-nav"><a href="#about-me">About Me</a></li>
-          <li class="contact-me-nav"><a href="#contact-me-button">Contact Me</a></li>
-          <li class="sitter-swap-dropdown"><a href="#sitter-swap-container">SitterSwap</a></li>
-          <li class="within-reach-dropdown"><a href="#within-reach-container">Within Reach</a></li>
-          <li class="protips-dropdown"><a href="#protips-container">ProTips</a></li>
-          <li class="race-time-dropdown"><a href="#race-time-container">Race Time</a></li>
+          <li class="about-me-nav" ng-click="active"><a href="#about-me">About Me</a></li>
+          <li class="contact-me-nav" ng-click="active"><a href="#contact-me-button">Contact Me</a></li>
+          <li class="sitter-swap-dropdown" ng-click="active"><a href="#sitter-swap-container">SitterSwap</a></li>
+          <li class="within-reach-dropdown"ng-click="active"><a href="#within-reach-container">Within Reach</a></li>
+          <li class="protips-dropdown" ng-click="active"><a href="#protips-container">ProTips</a></li>
+          <li class="race-time-dropdown" ng-click="active"><a href="#race-time-container">Race Time</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -50,7 +52,6 @@
         <img src="assets/images/mishaleclairglasses.jpg"/>
       </div>
       <div class="col-lg-6 col-xs-12">
-        <p>I can add: {{ 1+2 }}</p>
         <ul class="about-me-list">
           <li>Dedicated and Driven</li>
           <li>Passionate About Problem Solving</li>
@@ -74,6 +75,7 @@
         <li>Bootstrap, Handlebars, Materialize</li>
         <li>GitHub, Heroku, BitBalloon</li>
       </ul>
+      <button><a href=#>Home</a></button>
     </div>
   </div>
   <!-- projects section -->
@@ -98,6 +100,7 @@
           <p>You can link to another family by searching the family name: "TestFamily".</p>
           <p>You can choose a sitter too by searching for the email: "testsitter@example.com".</p>
           <a href="https://github.com/sfnewzgirl/sitter-swap-2" target="_blank">GitHub</a>
+          <button><a href=#>Home</a></button>
         </div>
       </div>
     </div>
@@ -121,6 +124,7 @@
           </ul>
           <a href="https://pacific-retreat-93110.herokuapp.com/" target="_blank">Within Reach</a><br>
           <a href="https://github.com/sfnewzgirl/dialectical-therapy" target="_blank">Github</a>
+          <button><a href=#>Home</a></button>
         </div>
       </div>
     </div>
@@ -143,6 +147,7 @@
           </ul>
           <a href="https://parkprotips.herokuapp.com/" target="_blank">ProTips</a><br>
           <a href="https://github.com/sfnewzgirl/project1-disneyland" target="_blank">GitHub</a>
+          <button><a href=#>Home</a></button>
         </div>
       </div>
     </div>
@@ -166,6 +171,7 @@
           </ul>
           <a href="https://webdevmisharacetimeracinggame.bitballoon.com/" target="_blank">Race Time</a><br>
           <a href="https://github.com/sfnewzgirl/project0-racing-game" target="_blank">GitHub</a>
+          <button><a href=#>Home</a></button>
         </div>
       </div>
     </div>

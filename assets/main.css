@@ -1,5 +1,4 @@
 body {
-  /*padding-top: 70px;*/
   font-family: 'Oswald', sans-serif;
 }
 
@@ -13,12 +12,7 @@ about-me-list {
   display: inline;
 }
 
-/*#sitter-swap-container, #within-reach-container, #protips-container, #race-time-container {
-  display: none;
-}*/
-
 #contact-me-button {
-  /*clear: both;*/
   display: block;
   color: #317ca9;
   text-align: center;
