@@ -2,14 +2,19 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.navbar-brand {
+  font-size: 3em;
+  padding-left: 1em;
+}
+
+.navbar-right {
+  font-size: 1.5em;
+}
+
 img {
   display: inline-block;
   max-width: 300px;
   max-height: auto;
-}
-
-about-me-list {
-  display: inline;
 }
 
 #contact-me-button {
