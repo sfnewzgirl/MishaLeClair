@@ -7,22 +7,22 @@ portfolio.config(['$routeProvider', function($routeProvider) {
 
   $routeProvider
     .when('/', {
-      templateurl: 'views/about-me.html'
+      templateUrl: 'views/about-me.html'
     })
     .when('/contact-me', {
-      templateurl: 'views/contact-me.html'
+      templateUrl: 'views/contact-me.html'
     })
     .when('/sitterswap', {
-      templateurl: 'views/sitterswap.html'
+      templateUrl: 'views/sitterswap.html'
     })
     .when('/within-reach', {
-      templateurl: 'views/within-reach.html'
+      templateUrl: 'views/within-reach.html'
     })
     .when('/protips', {
-      templateurl: 'views/protips.html'
+      templateUrl: 'views/protips.html'
     })
     .when('/race-time', {
-      templateurl: 'views/race-time.html'
+      templateUrl: 'views/race-time.html'
     })
     .otherwise({
       redirectTo: '/'
