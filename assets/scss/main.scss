@@ -1,3 +1,8 @@
+$purple: #52527a;
+$blue: #336699;
+$lightgrey: #e1e1ea;
+$darkgrey: #4d4d4d;
+
 body {
   font-family: 'Oswald', sans-serif;
 }
@@ -12,9 +17,14 @@ body {
 }
 
 img {
+  margin-top: 1em;
   display: inline-block;
   max-width: 300px;
   max-height: auto;
+}
+
+.project-navigation {
+  float: right;
 }
 
 .contact-options {
@@ -22,8 +32,4 @@ img {
   padding: 1em;
   margin: 1em;
   margin-bottom: 3em;
-}
-
-a {
-color: #52527a;
 }
