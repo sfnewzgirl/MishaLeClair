@@ -49,7 +49,11 @@ body p, body li {
 }
 
 .project-view {
-  margin: .5em;
+  margin: 3em .5em 3em .5em;
+}
+
+.project-image {
+  box-shadow: 5px 2px 2px #e1e1ea;
 }
 
 .project-links {

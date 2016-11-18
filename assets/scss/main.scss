@@ -47,21 +47,19 @@ body {
   font-size: 1.5em;
 }
 
-.about-me-pitch {
-
-}
-
 .about-me-skills {
   h3 {
     margin-bottom: 1em;
   }
-
 }
 
 .project-view {
-  margin: .5em;
+  margin: 3em .5em 3em .5em ;
 }
 
+.project-image {
+  box-shadow: 5px 2px 2px $lightgrey;
+}
 .project-links {
   background-color: $lightgrey;
   display: block;
