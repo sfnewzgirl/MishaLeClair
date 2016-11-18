@@ -28,6 +28,15 @@ body p, body li {
   max-width: 100%;
 }
 
+.about-me-image {
+  max-height: 450px;
+  margin-left: 3em;
+}
+
+.about-me-brand, .about-me-pitch, .about-me-skills {
+  margin-top: 2.5em;
+}
+
 .project-view {
   margin: .5em;
 }
