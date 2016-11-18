@@ -21,28 +21,22 @@ body p, body li {
   font-size: 1.5em;
 }
 
-img {
+.img-fluid {
   margin-top: 1em;
   display: block;
-  max-height: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 .project-view {
   margin: .5em;
 }
 
-.project-section {
-  display: block;
-  float: right;
-}
-
 .project-links {
   background-color: #e1e1ea;
   display: block;
-  width: 50%;
   border-radius: .5em;
   padding: 1em;
-  margin: auto;
   box-shadow: 10px 5px 5px #52527a;
 }
 
