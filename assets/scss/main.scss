@@ -14,17 +14,23 @@ body {
     font-size: 1.25em;
   }
 }
-
-.navbar-brand {
-  font-size: 3em;
-  padding-left: 1em;
-}
-
-.navbar-right {
-  font-size: 1.5em;
-  a:hover {
-    // color: #336699;
-    text-decoration: underline;
+.navbar-default {
+  background-color: $lightgrey;
+  box-shadow: 0px 5px 5px $darkgrey;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  .navbar-brand {
+    font-size: 3em;
+    padding-left: 1em;
+    color: $purple;
+  }
+  .navbar-right {
+    font-size: 1.5em;
+    color: $purple;
+    a:hover {
+      color: $blue;
+      text-decoration: underline;
+    }
   }
 }
 
