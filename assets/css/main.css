@@ -21,6 +21,10 @@ body p, body li {
   font-size: 1.5em;
 }
 
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
 .img-fluid {
   margin-top: 1em;
   display: block;
@@ -69,6 +73,11 @@ body p, body li {
   margin-bottom: .5em;
 }
 
+h2 {
+  color: #52527a;
+  font-size: 2.5em;
+}
+
 .contact-options {
   text-align: center;
   padding: 1em;
@@ -76,12 +85,17 @@ body p, body li {
   margin-bottom: 3em;
 }
 
-.contact-options h3 {
-  margin-bottom: 1em;
+.contact-options .btn-lg {
+  border-color: #4d4d4d;
+  border-width: .20em;
+  background-color: white;
 }
 
-.contact-options btn-lg {
-  border-color: #4d4d4d;
-  background-color: #e1e1ea;
+.contact-options a {
   color: #52527a;
+}
+
+.contact-options a:hover {
+  color: #336699;
+  text-decoration: underline;
 }
