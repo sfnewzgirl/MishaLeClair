@@ -66,6 +66,10 @@ body {
   max-width: 80%;
   border-radius: .5em;
   border: 2px solid $purple;
+  h3 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
 }
 
 .contact-options {
