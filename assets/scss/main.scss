@@ -5,6 +5,14 @@ $darkgrey: #4d4d4d;
 
 body {
   font-family: 'Oswald', sans-serif;
+  h3 {
+    margin: auto;
+    color: $purple;
+    font-size: 2em;
+  }
+  p, li {
+    font-size: 1.25em;
+  }
 }
 
 .navbar-brand {
@@ -18,17 +26,27 @@ body {
 
 img {
   margin-top: 1em;
-  display: inline-block;
+  display: block;
   max-height: auto;
 }
 
-.project-box {
-  background-color: $lightgrey;
+.project-view {
+  margin: .5em;
 }
 
-.project-navigation {
+.project-section {
+  display: block;
   float: right;
-  position: absolute;
+}
+
+.project-links {
+  background-color: $lightgrey;
+  display: block;
+  width: 50%;
+  border-radius: .5em;
+  padding: 1em;
+  margin: auto;
+  box-shadow: 10px 5px 5px $purple;
 }
 
 .contact-options {
