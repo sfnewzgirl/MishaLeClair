@@ -63,8 +63,9 @@ body {
 .project-links {
   background-color: $lightgrey;
   display: block;
+  max-width: 80%;
   border-radius: .5em;
-  box-shadow: 10px 5px 5px $purple;
+  border: 2px solid $purple;
 }
 
 .contact-options {
