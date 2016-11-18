@@ -25,14 +25,12 @@ body p, body li {
   color: #52527a;
 }
 
-.navbar-default .navbar-right {
-  font-size: 1.5em;
-  color: #52527a;
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #4d4d4d;
 }
 
-.navbar-default .navbar-right a:hover {
-  color: #336699;
-  text-decoration: underline;
+.navbar-default .navbar-right, .navbar-default .navbar-nav {
+  font-size: 1.5em;
 }
 
 .img-fluid {

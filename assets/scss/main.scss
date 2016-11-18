@@ -23,14 +23,12 @@ body {
     font-size: 3em;
     padding-left: 1em;
     color: $purple;
-  }
-  .navbar-right {
-    font-size: 1.5em;
-    color: $purple;
-    a:hover {
-      color: $blue;
-      text-decoration: underline;
+    &:hover, &:focus {
+      color: $darkgrey;
     }
+  }
+  .navbar-right, .navbar-nav {
+    font-size: 1.5em;
   }
 }
 
