@@ -19,12 +19,16 @@ body {
 img {
   margin-top: 1em;
   display: inline-block;
-  max-width: 300px;
   max-height: auto;
+}
+
+.project-box {
+  background-color: $lightgrey;
 }
 
 .project-navigation {
   float: right;
+  position: absolute;
 }
 
 .contact-options {
