@@ -64,11 +64,13 @@ body {
   background-color: $lightgrey;
   display: block;
   border-radius: .5em;
-  padding: 1em;
   box-shadow: 10px 5px 5px $purple;
 }
 
 .contact-options {
+  h3 {
+    margin-bottom: 1em;
+  }
   text-align: center;
   padding: 1em;
   margin: 1em;
