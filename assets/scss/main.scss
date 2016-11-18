@@ -44,7 +44,7 @@ body {
 
 .about-me-brand {
   color: $purple;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .about-me-skills {
@@ -80,4 +80,9 @@ body {
   padding: 1em;
   margin: 1em;
   margin-bottom: 3em;
+  btn-lg {
+    border-color: $darkgrey;
+    background-color: $lightgrey;
+    color: $purple;
+  }
 }
