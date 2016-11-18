@@ -38,12 +38,13 @@ body {
   box-shadow: 10px 5px 5px $lightgrey;
 }
 
-.about-me-brand, .about-me-pitch, .about-me-skills {
+.about-me-pitch, .about-me-skills {
   margin-top: 2.5em;
 }
 
 .about-me-brand {
-
+  color: $purple;
+  font-size: 1.5em;
 }
 
 .about-me-pitch {
